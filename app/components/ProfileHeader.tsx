@@ -14,18 +14,18 @@ export function ProfileHeader({ creator, variant = 'withAvatarAndHandle' }: Prof
       {variant === 'withAvatarAndHandle' && (
         <>
           <Avatar 
-            address={creator.baseWalletAddress}
+            address={creator.baseWalletAddress as `0x${string}` | undefined}
             className="h-12 w-12"
           />
           <div className="flex-1">
             <div className="flex items-center gap-2">
               <Name 
-                address={creator.baseWalletAddress}
+                address={creator.baseWalletAddress as `0x${string}` | undefined}
                 className="font-semibold text-text-primary"
               />
             </div>
             <Address 
-              address={creator.baseWalletAddress}
+              address={creator.baseWalletAddress as `0x${string}` | undefined}
               className="text-sm text-text-secondary"
             />
           </div>
