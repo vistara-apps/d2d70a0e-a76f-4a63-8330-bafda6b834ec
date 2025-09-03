@@ -1,0 +1,30 @@
+{
+  "accountAssociation": {
+    "header": "",
+    "payload": "",
+    "signature": ""
+  },
+  "frame": {
+    "version": "1",
+    "name": "TipJar",
+    "subtitle": "Built with Zara",
+    "description": "TipJar is a Base Mini App built with Zara.",
+    "iconUrl": "https://0co.to/images/zara-2.png",
+    "homeUrl": "https://d2d70a0ea76f4a638330bafda6b834ec-ak4y-1yz8bmubt-vistara.vercel.app",
+    "splashImageUrl": "https://d2d70a0ea76f4a638330bafda6b834ec-ak4y-1yz8bmubt-vistara.vercel.app/splash.png",
+    "splashBackgroundColor": "#000000",
+    "heroImageUrl": "https://d2d70a0ea76f4a638330bafda6b834ec-ak4y-1yz8bmubt-vistara.vercel.app/image.png",
+    "tagline": "TipJar",
+    "screenshotUrls": [
+      "https://d2d70a0ea76f4a638330bafda6b834ec-ak4y-1yz8bmubt-vistara.vercel.app/screenshot.png",
+      "https://d2d70a0ea76f4a638330bafda6b834ec-ak4y-1yz8bmubt-vistara.vercel.app/screenshot.png"
+    ],
+    "primaryCategory": "social",
+    "tags": [
+      "base",
+      "miniapp",
+      "onchainkit"
+    ],
+    "webhookUrl": "https://d2d70a0ea76f4a638330bafda6b834ec-ak4y-1yz8bmubt-vistara.vercel.app/api/webhook"
+  }
+}
